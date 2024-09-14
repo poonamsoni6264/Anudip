@@ -11,6 +11,8 @@ public class Set_Implement
    public static void main(String[] args) 
    {
 	   //This is not index based
+	   //It is not allows duplicate values.
+	   //It cannot store mutiple null values.
 	   Set<Integer> sh = new HashSet();
 	   sh.add(100);
 	   sh.add(500);

@@ -17,7 +17,7 @@ public class List_Implement
     	    //This is index based system
 	    //It can store duplicate values.
 	    //It allows mutiple null values.
-	    List<Integer> l = new ArrayList();
+	    List<Integer> l = new ArrayList();//ArrayList is a implement class of List interface.
 	    l.add(10);
 	    l.add(124);
 	    l.add(131);

@@ -13,8 +13,10 @@ public class List_Implement
 {
     public static void main(String[] args) 
     {
-    	//All Implement class of List Interface 
-    	//This is index based system
+    	    //All Implement class of List Interface 
+    	    //This is index based system
+	    //It can store duplicate values.
+	    //It allows mutiple null values.
 	    List<Integer> l = new ArrayList();
 	    l.add(10);
 	    l.add(124);

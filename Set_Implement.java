@@ -31,5 +31,12 @@ public class Set_Implement
 	  ts.add(154);
 	  ts.add(4554);
 	  System.out.println("TreeSet : " + ts);
+
+	   //iterator only work here listiterator is not working in set interface.
+	    Iterator itr=sh.iterator();
+	    while(itr.hasNext())
+	    {
+	    	System.out.println("This is iterator function : " + itr.next());
+	    }
    }
 }

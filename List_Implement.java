@@ -40,5 +40,20 @@ public class List_Implement
 	    l4.add(5646);
 	    l4.add(3264);
 	    System.out.println("Stack : " + l4);
+
+	     
+//	    Iterator itr=l.iterator();
+//	    while(itr.hasNext())
+//	    {
+//	    	System.out.println("This is iterator function : " + itr.next());
+//	    }
+
+            //OR
+	    
+	    ListIterator litr=l.listIterator();
+	    while(litr.hasNext())
+	    {
+	    	System.out.println("This is Listiterator function : " + litr.next());
+	    }
 	}
 }

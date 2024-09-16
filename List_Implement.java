@@ -29,7 +29,7 @@ public class List_Implement
 	    l2.add(700);
 	    System.out.println("LinkedList : " + l2);
 	    
-	    List<Integer> l3 = new Vector();
+	    List<Integer> l3 = new Vector();//Vector is a legacy class of list Interface, introduced in 1.0v.
 	    l3.add(11);
 	    l3.add(465);
 	    l3.add(821);
